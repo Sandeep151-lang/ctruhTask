@@ -1,0 +1,50 @@
+.left_part{
+  width:70%;
+  height:60vh;
+  position:relative
+}
+
+.color-picker{
+  width:7rem
+}
+
+.input-field{
+  width:10rem
+}
+
+.zoom{
+   transition-duration:1s;
+  /* transform: skew(0); */
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  font-size: 6vmin;
+  margin: auto;
+  color: white;
+  cursor:pointer;
+  transform: skew(-0.06turn, 0deg);
+}
+.zoom:hover{
+transition-delay: 0.5s;
+transform:scale(1.7);
+  background:rgb(72 5 114 / 71%);
+  width:10%;
+  height:10%;
+  border-radius:50px;
+  font-size:50px;
+  color:white;
+}
+
+
+.line{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transition-duration:1s;
+width: 100px;
+height: 3px;
+background: black;
+cursor:pointer;
+
+}
